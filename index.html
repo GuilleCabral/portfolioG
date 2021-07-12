@@ -9,27 +9,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-    
-  
+
     <!-- header area -->
-    <!-- step three, code the header -->
     <header id="header">
         <div class="row m-0">
             <div class="col-3 bgcolor-primary">
                 <nav class="primary-nav navbar-expand-md">
                     <div class="site-title text-center text-light py-5">
-                        <a href="#" class="navbar-brand font-staat font-size-40">AKKA</a>
-                        <p class="description text-uppercase font-os">Akshay Kashyap</p>
+                        <a class="navbar-brand font-staat font-size-40">WEB-DEV</a>
+                        <p class="description text-uppercase font-os">Guillermo Cabral</p>
                     </div>
                     <div class="d-flex flex-column">
                         <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
                         <a href="#skills" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
                         <a href="#projects" class="nav-item nav-link text-white-50 font-os font-size-16 active">projects</a>
                         <a href="#education" class="nav-item nav-link text-white-50 font-os font-size-16 active">Education</a>
-                        <a href="#experience" class="nav-item nav-link text-white-50 font-os font-size-16 active">Experience</a>
-                        <a href="#resume" class="nav-item nav-link text-white-50 font-os font-size-16 active">Resume</a>
                         <a href="#contact" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact</a>
                     </div>
                 </nav>
@@ -50,26 +47,91 @@
                 <section class="site-banner" id="home">
                     <div class="banner-area">
                         <div class="author text-center">
-                            <div class="author-img"></div>
-                            <h1 class="text-white font-staat font-size-40 text-uppercase py-3">Akshay Kashyap</h1>
+                            <div class="author-img border border-dark"></div>
+                            <h1 class="text-black font-staat font-size-40 text-uppercase py-3"> Guillermo Cabral</h1>
                         </div>
                     </div>
                 </section>
-     
-                    
 
             </div>
         </div>
     </main>
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--Container-->
+    <div class="container col col-xs-6 col-sm-6 col-md-8 col-lg-8 text-center">
+        <div id="skills">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col col-sm-4 col-md-2 col-lg-2 center">
+                    <img style="width: 100px;" src="./assets/html.png" alt="">
+                </div>
+                <div class="col col-sm-4 col-md-2 col-lg-2 center">
+                    <img style="width: 70px;" src="./assets/css.png" alt="">
+                </div>
+                <div class="col col-sm-4 col-md-2 col-lg-2 center">
+                    <img style="width: 100px;" src="./assets/js.png" alt="">
+                </div>     
+                <div class="col col-sm-4 col-md-2 col-lg-2 center">
+                    <img style="width: 100px;" src="./assets/c++.png" alt="">
+                </div>
+                <div class="col col-sm-4 col-md-2 col-lg-2 center">
+                    <img style="width: 100px;" src="./assets/react.png" alt="">
+                </div>
+                <div class="col col-sm-4 col-md-2 col-lg-2 center">
+                    <img style="width: 160px;" src="./assets/node.jpg" alt="">
+                </div>              
+            </div>
+        </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+        <div id="projects">
+            <h2>Projects</h2>
+            <div id="projects-list">
+                <a target="blank" style="text-decoration : none" href="https://guillecabral.github.io/ProductLandingPage/"> Product Landing page</a>
+            </div>
+        </div>
 
-<script src="./vendor/typed/typed.min.js"></script>
+        <div id="education">
+            <h2>Education</h2>
+            <div id="education-list">
+                <ul>
+                    <li class="font-weight-bold">Technical School #1 Bernardo Ader</li>
+                    <li class="font-italic">Electronic Technician degree</li>
+                    <li class="font-weight-bold">Kable Academy</li>
+                    <li class="font-italic">Web Developer certificate</li>
+                </ul>
+            </div>
+        </div>
 
-<script src="./index.js"></script>
+        <div id="contact">
+            <h2>Contact</h2>
+            <div id="contactSM" class="row center">
+                <div class="col-lg-2">
+                <a href="https://www.linkedin.com/in/guillermo-cabral-b24920186/" target="blank" title="Image from freeiconspng.com">
+                    <img src="./assets/linkedinIcon.png" width="50" alt="LinkedinIcon"/>
+                </a></div>
+                <div class="col-lg-2">
+                <a href="https://twitter.com/GuillermoECabr1" target="blank" title="Image from freeiconspng.com">
+                    <img src="./assets/twitterIcon.png" width="50" alt="TwitterIcon"/>
+                </a></div>
+                <div class="col-lg-2">
+                <a href="https://github.com/GuilleCabral" target="blank" title="Image from freeiconspng.com">
+                    <img src="./assets/githubIcon.png" width="50" alt="GithubIcon"/>
+                </a></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+    <script src="./vendor/typed/typed.min.js"></script>
+
+    <script src="./index.js"></script>
+
 </body>
 </html>
