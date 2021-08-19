@@ -2,18 +2,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortfolioG</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 
     <!-- header area -->
+
     <header id="header">
         <div class="row m-0">
             <div class="col-3 bgcolor-primary">
@@ -23,7 +23,7 @@
                         <p class="description text-uppercase font-os">Guillermo Cabral</p>
                     </div>
                     <div class="d-flex flex-column">
-                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
                         <a href="#skills" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
                         <a href="#projects" class="nav-item nav-link text-white-50 font-os font-size-16 active">projects</a>
                         <a href="#education" class="nav-item nav-link text-white-50 font-os font-size-16 active">Education</a>
@@ -32,145 +32,193 @@
                 </nav>
             </div>
         </div>
-        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
-        <div class="social">
+        <button class="toggle-button">
+            <span class="fas fa-bars fa-2x"></span>
+        </button>
+        <!-- <div class="social">
             <span class="mr-3"><i class="fab fa-linkedin"></i></span>
             <span class="mr-3"><i class="fab fa-github"></i></span>
-        </div>
+        </div> -->
     </header>
-    
+
+    <!--main section page-->
+
     <main id="site-main">
         <div class="row m-0">
             <div class="col-md-9 offset-md-3 px-0">
-
-         
-                <section class="site-banner" id="home">
+                <section class="site-banner">
                     <div class="banner-area">
-                        <div class="author text-center">
-                            <div class="author-img border border-dark"></div>
-                            <h1 class="text-black font-staat font-size-40 text-uppercase py-3"> Guillermo Cabral</h1>
+                        <div class="">
+                             <img class='author-img sun' src="./assets/about.jpg" alt="" id='sun'>
+                        </div>
+                        <div class="author"></div>
+                            <p class="name"> Guillermo Cabral</p>
                         </div>
                     </div>
                 </section>
-
             </div>
         </div>
     </main>
 
-    <!--Container-->
+    <!--secondary section page-->
+
     <div class="container col col-md-9 offset-md-3 px-0 text-center">
+
+        <!--skills section-->
+
         <div id="skills">
-            <h2>Skills</h2>
+            <div id="titleCtnr" class="container">
+                <img src="./assets/skills.png" alt="SkillsImg" style="width:5%;">
+                <div class="h2TextCtnr">
+                    <h2>SKILLS</h2>
+                </div>
+            </div>
             <div class="row m-0">
                 <div class="col col-sm-4 col-md-2 col-lg-2 center">
-                    <img style="width: 80px;" src="./assets/html.png" alt="">
+                    <img style="width: 80px;" src="./assets/html.png" alt=""><br><br>HTML 5
                 </div>
                 <div class="col col-sm-4 col-md-2 col-lg-2 center">
-                    <img style="width: 60px;" src="./assets/css.png" alt="">
+                    <img style="width: 58px;" src="./assets/css.png" alt=""><br><br>CSS 3
                 </div>
                 <div class="col col-sm-4 col-md-2 col-lg-2 center">
-                    <img style="width: 85px;" src="./assets/js.png" alt="">
-                </div>     
-                <div class="col col-sm-4 col-md-2 col-lg-2 center">
-                    <img style="width: 90px;" src="./assets/c++.png" alt="">
+                    <img style="width: 82px;" src="./assets/js.png" alt="">
+                    <br><br>JAVASCRIPT ES6
                 </div>
                 <div class="col col-sm-4 col-md-2 col-lg-2 center">
-                    <img style="width: 85px;" src="./assets/react.png" alt="">
+                    <img style="width: 82px;" src="./assets/c++.png" alt=""><br><br>C++
                 </div>
                 <div class="col col-sm-4 col-md-2 col-lg-2 center">
-                    <img style="width: 140px;" src="./assets/node.jpg" alt="">
+                    <img style="width: 82px;" src="./assets/react.png" alt=""><br><br>REACT
+                </div>
+                <div class="col col-sm-4 col-md-2 col-lg-2 center">
+                    <img style="width: 150px;" src="./assets/node.jpg" alt=""><br><br>NODE
                 </div>              
             </div>
         </div>
 
-        <div id="projects" style="display:inline-block;">
-            <h2>Projects</h2>
+        <!--projects section-->
 
-                <div style="display: inline-flex; align-items: center;">
-                    <a target="blank" href="https://guillecabral.github.io/ProductLandingPage/"><img src="./assets/PLP.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="Prdct-Land-Page"></a>
+        <div id="titleCtnr" class="container">
+            <img src="./assets/projects.png" alt="SkillsImg" style="width:5%;">
+            <div id="projects" class="h2TextCtnr">
+                <h2>PROJECTS</h2>
+            </div>
+        </div>
+        <div class="column d-flex">
+
+            <!--column 1-->
+
+            <div class="col1">
+                <div style="display: flex; align-items: center;">
+                    <a target="blank" href="https://guillecabral.github.io/ProductLandingPage/">
+                        <img src="./assets/PLP.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="Prdct-Land-Page">
+                    </a>
                     <p>Product Landing page</p>
                 </div>
-                
-                <div style="display: inline-flex; align-items: center;">
-                    <a target="blank" href="https://guillecabral.github.io/madlibs/"><img src="./assets/MadLibs.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em; " alt="Mad-Libs"></a>
+                <div style="display: flex; align-items: center;">
+                    <a target="blank" href="https://guillecabral.github.io/madlibs/">
+                        <img src="./assets/MadLibs.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em; " alt="Mad-Libs">
+                    </a>
                     <p>Mad Libs</p> 
                 </div>
-                
-                <div style="display: inline-flex; align-items: center;">
-                    <a target="blank" href="https://guillecabral.github.io/DrumKit/"><img src="./assets/Drum.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="drum-kit"></a>
+                <div style="display: flex; align-items: center;">
+                    <a target="blank" href="https://guillecabral.github.io/DrumKit/">
+                        <img src="./assets/Drum.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="drum-kit">
+                    </a>
                     <p>Drum kit</p>
                 </div>
-                
-                <div style="display: inline-flex; align-items: center;">
-                    <a target="blank" href="https://guillecabral.github.io/petStoreG/"><img src="./assets/PetSt.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="Pet-Store"></a>
+                <div style="display: flex; align-items: center;">
+                    <a target="blank" href="https://guillecabral.github.io/petStoreG/">
+                        <img src="./assets/PetSt.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="Pet-Store">
+                    </a>
                     <p>Pet Store</p>
                 </div>
-
-                <div style="display: inline-flex; align-items: center;">
-                    <a target="blank" href="https://guillecabral.github.io/counter/"><img src="./assets/counter.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="counter"></a>
+            </div>
+        
+            <!--column 2-->
+        
+            <div class="col2">
+                <div style="display: flex; align-items: center;">
+                    <a target="blank" href="https://guillecabral.github.io/counter/">
+                        <img src="./assets/counter.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="counter">
+                    </a>
                     <p>Counter</p>
                 </div>
-
-                <div style="display: inline-flex; align-items: center;">
-                    <a target="blank" href="https://guillecabral.github.io/fun-facts/"><img src="./assets/funFact.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="fun-facts"></a>
+                <div style="display: flex; align-items: center;">
+                    <a target="blank" href="https://guillecabral.github.io/fun-facts/">
+                        <img src="./assets/funFact.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="fun-facts">
+                    </a>
                     <p>Fun Facts</p>
                 </div>
-
-                <div style="display: inline-flex; align-items: center;">
-                    <a target="blank" href="https://guillecabral.github.io/ajax/"><img src="./assets/AJAX.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="Type-ahead-search"></a>
+                <div style="display: flex; align-items: center;">
+                    <a target="blank" href="https://guillecabral.github.io/ajax/">
+                        <img src="./assets/AJAX.png" style="width: 10em; border: 2px solid rgb(216, 84, 84); margin: 0 1em 1em;" alt="Type-ahead-search">
+                    </a>
                     <p>Type ahead search</p>
                 </div>
+            </div>
 
         </div>
 
+        <!--education section-->
+
         <div id="education">
-            <h2>Education</h2>
+            <div id="titleCtnr" class="container">
+                <img src="./assets/education.png" alt="SkillsImg" style="width:5%;">
+                <div class="h2TextCtnr">
+                    <h2>EDUCATION</h2>
+                </div>
+            </div>
             <div id="education-list">
                 <ul>
-                    <li class="font-weight-bold">Technical School #1 Bernardo Ader</li>
-                    <li class="font-italic">Electronic Technician degree</li>
-                    <li class="font-weight-bold">Kable Academy</li>
-                    <li class="font-italic">Web Developer certificate</li>
+                    <li id="school" class="font-weight-bold">Technical School #1 Bernardo Ader</li>
+                    <li id="degree" class="font-italic">Electronic Technician degree</li>
+                    <li id="school" class="font-weight-bold">Kable Academy</li>
+                    <li id="degree"  class="font-italic">Web Developer certificate</li>
                 </ul>
             </div>
         </div>
 
-        <h2>Contact</h2>
+        <!--contact section-->
+
+        <div id="titleCtnr" class="container">
+            <img src="./assets/contact.png" alt="SkillsImg" style="width:5%;">
+            <div class="h2TextCtnr">
+                <h2>CONTACT</h2>
+            </div>
+        </div>
         <div class="container">
             <div id="contact" class="d-flex">
-
                 <div class="col col-sm-2 col-md-2 col-lg-2">
                     <a href="https://www.linkedin.com/in/guillermo-cabral-b24920186/" target="blank" title="Image from freeiconspng.com">
                         <img src="./assets/linkedinIcon.png" width="50" class="img-responsive center-block d-block mx-auto" alt="LinkedinIcon"/>
                     </a>
+                    linkedIn
                 </div>
-
                 <div class="col col-sm-2 col-md-2 col-lg-2 ">
                     <a href="https://twitter.com/GuillermoECabr1" target="blank" title="Image from freeiconspng.com">
                         <img src="./assets/twitterIcon.png" width="50" class="img-responsive center-block d-block mx-auto" alt="TwitterIcon"/>
                     </a>
+                    twitter
                 </div>
-
                 <div class="col col-sm-2 col-md-2 col-lg-2">
                     <a href="https://github.com/GuilleCabral" target="blank" title="Image from freeiconspng.com">
                         <img src="./assets/githubIcon.png" width="50" class="img-responsive center-block d-block mx-auto" alt="GithubIcon"/>
                     </a>
+                    github
                 </div>
-
             </div>
         </div>
 
     </div>
 
     <!--scripts -->
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
-
     <script src="./vendor/typed/typed.min.js"></script>
-
     <script src="./index.js"></script>
 
 </body>
